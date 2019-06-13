@@ -1,0 +1,15 @@
+{
+  "name": "raid",
+  "version": "1.0.0",
+  "description": "Destiny 2 raid checker",
+  "main": "lib/raid.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paolo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
