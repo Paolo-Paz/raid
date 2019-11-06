@@ -1,0 +1,32 @@
+.navigation {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgb(59, 59, 59);
+    overflow-x: hidden; 
+    padding-top: 20px;
+    }
+    .navigation a {
+      text-decoration: none;
+      display: block;
+      padding: 1em;
+      color: white;
+    }
+    
+    .navigation a:hover {
+      background: #96a0a3;
+    }
+    body {
+        background-color: black;
+        }
+    .pagebody {
+        height: auto;
+        width: auto;
+        margin-left: 160px; 
+        padding: 0px 10px;
+        background-color: black;
+        color: white;
+      }

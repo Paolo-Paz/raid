@@ -1,6 +1,6 @@
 {
   "name": "raid",
-  "version": "1.3.0",
+  "version": "1.3.01",
   "description": "Destiny 2 raid checker",
   "main": "lib/raid.js",
   "scripts": {
