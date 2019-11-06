@@ -8,6 +8,6 @@ const config = {
 }
 
 module.exports = config;
-Simply insert your Bungie API token and run npm install to install the dependencies required for this project from the root directory.
+Simply insert your Bungie API token and run 'npm install' to install the dependencies required for this project from the root directory.
 
 
