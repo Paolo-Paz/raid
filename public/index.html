@@ -23,6 +23,10 @@
 			      fetch(`/raid/${user}`)
         	    .then((r) => { return r.json(); })
         	    .then((response) => {
+                if(response == null)
+                {
+                  window.alert("User not found");
+                }
                 let x = 0;
                 while(response[x] != null || response[x] < 3)
                 {
