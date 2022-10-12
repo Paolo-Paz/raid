@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <div class="navigation">
+      <!--Pages will be added in future update-->   
+        <p align="right"><a href="home.html">Home</a></p>
+        <p align="right"><a href="index.html"><b>Destiny 2</b></a></p>
+        <p align="right"><a href="about.html">About us</a></p>
+    </div>
+</html>
 # raid
 This is under construction
 
