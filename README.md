@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <div class="navigation">
       <!--Pages will be added in future update-->   
@@ -20,5 +19,5 @@ const config = {
 module.exports = config;
 ```
 Simply insert your Bungie API token and run 'npm install' to install the dependencies required for this project from the root directory.
-
+Please keep in mind that the Github page currently will not actually work as I have not completed the code to allow the JS to run on Github pages yet. I currently use Express on my machine to host the program and run it's function. I hope to fix this soon.
 
