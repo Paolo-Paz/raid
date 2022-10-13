@@ -6,7 +6,7 @@
         <p align="right"><a href="about.html">About us</a></p>
     </div>
 </html>
-## RAID
+RAID
 This is under construction
 
 RAID a tool for checking raid progress and hopefully some more cool stuff in the near future!
