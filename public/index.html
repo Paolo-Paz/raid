@@ -1,6 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    
+  </body>
     <div class="navigation">
       <!--Pages will be added in future update-->   
         <p align="right"><a href="home.html">Home</a></p>
@@ -19,10 +26,10 @@
         <script>
           function startRaid()
           {
-            const user= document.getElementById('userName').value;
-			      fetch(`/raid/${user}`)
-        	    .then((r) => { return r.json(); })
-        	    .then((response) => {
+            const userName = document.getElementById('userName').value;
+            const myRaid = new raid.Raid(userName);
+            myRaid.process()
+            .then((response) => {
                 if(response == null)
                 {
                   window.alert("User not found");
