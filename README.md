@@ -7,7 +7,7 @@
     </div>
 </html>
 RAID  
-This is under construction
+This project has developed enough that I have launched the web application. I will be putting out one final update that will correct API calls for getting weekly raid completetion status. Please feel free to check out the site at https://master-choir-365517.uc.r.appspot.com/
 
 RAID a tool for checking raid progress and hopefully some more cool stuff in the near future!
 This requires Axios to function properly and a new file in your raid folder named config.js with the following code:
